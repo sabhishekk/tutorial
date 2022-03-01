@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px;
+    margin-bottom: 0px;
+}
+#div-2 img{
+    width: 17px;
+    height: 17px;
+}
+#div-3 img{
+    width: 17px;
+    height: 17px;
+}
+#man{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid red; */
+}
+/* h1{ */
+    /* border: 2px solid rebeccapurple; */
+/* #div-1{
+    border: 2px solid rebeccapurple;
+}
+#div-2{
+    border: 2px solid rebeccapurple;
+    /* padding: 5px; */
+#div-3{
+    margin-left: 10px;
+}
+#aboutme{
+    border: 2px solid green;
+    width: 25%;
+    height: 500px;
+    background-color: #000000;
+    color: #ffff;
+}
+header{
+    align-self: center;
+    margin-left: 350px;
+}
