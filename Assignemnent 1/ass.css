@@ -1,48 +1,93 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     flex-flow: row wrap;
     margin: 15px;
     margin-bottom: 0px;
 }
-#div-2 img{
+
+#div-2 img {
     width: 17px;
     height: 17px;
 }
-#div-3 img{
+
+#div-3 img {
     width: 17px;
     height: 17px;
 }
-#man{
-    width: 200px;
-    height: 200px;
+
+#man {
+    width: 250px;
+    height: 250px;
     /* border: 2px solid red; */
 }
-/* h1{ */
-    /* border: 2px solid rebeccapurple; */
-/* #div-1{
-    border: 2px solid rebeccapurple;
-}
-#div-2{
-    border: 2px solid rebeccapurple;
-    /* padding: 5px; */
-#div-3{
+
+#div-3 {
     margin-left: 10px;
 }
-#aboutme{
+
+#aboutme {
     border: 2px solid green;
     width: 25%;
     height: 500px;
     background-color: #000000;
     color: #ffff;
+    display: inline-block;
 }
-header{
+
+header {
     align-self: center;
     margin-left: 350px;
+}
+
+#black {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #ffff;
+    width: 20%;
+    height: 693px;
+    border-top-right-radius: 15px;
+}
+
+#black h3 {
+    align-self: center;
+    margin-top: 78px;
+    font-size: 27px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#othername {
+    /* border: 2px solid brown; */
+    width: 80%;
+    background-color: #c3c3c3;
+    padding: 50px;
+    border-top-left-radius: 15px;
+}
+
+#othername h3 {
+    margin-left: 100px;
+    font-size: 33px;
+}
+
+#othername li {
+    font-size: 20px;
+}
+
+#othername img{
+    width: 25px;
 }
