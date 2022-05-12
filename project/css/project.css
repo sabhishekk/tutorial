@@ -26,10 +26,19 @@ html {
     height: var(--navbar-height);
     z-index: -1;
     opacity: 0.75;
+    max-width: 100%;
 }
+
 
 nav #logo {
     margin: 5px 15px;
+    max-width: 100%;
+}
+
+#navbar img {
+    height: 50px;
+    padding: 1px 3px;
+    max-width: 100%;
 }
 
 nav ul {
@@ -54,10 +63,6 @@ nav ul a:hover {
     transition-duration: 0.3s;
 }
 
-#navbar img {
-    height: 50px;
-    padding: 1px 3px;
-}
 
 
 /* home section  */
@@ -82,6 +87,7 @@ nav ul a:hover {
     width: 100%;
     z-index: -1;
     opacity: 0.6;
+    max-width: 100%;
 }
 
 #home button {
@@ -138,15 +144,18 @@ nav ul a:hover {
 
 #box1 img {
     height: 150px;
+    max-width: 100%;
 }
 
 #box2 img {
     height: 150px;
+    max-width: 100%;
 }
 
 #box3 img {
     height: 150px;
     width: 150px;
+    max-width: 100%;
 }
 
 /* clients section */
@@ -184,7 +193,8 @@ nav ul a:hover {
 #contact {
     position: relative;
 }
-#contact h1{
+
+#contact h1 {
     padding: 10px 0px;
 }
 
@@ -196,8 +206,10 @@ nav ul a:hover {
     height: 100%;
     z-index: -1;
     opacity: 0.6;
+    max-width: 100%;
 }
-#con{
+
+#con {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,18 +217,20 @@ nav ul a:hover {
     /* color: white; */
     padding: 20px 0px;
 }
-.form input,textarea{
+
+.form input, textarea {
     border: 2px solid #772a10;
     border-radius: 7px;
     padding: 2px 4px;
     width: 100%;
     font-size: 17px;
 }
-#con form{
+
+#con form {
     width: 40%;
 }
 
-#footer{
+#footer {
     background-color: black;
     color: white;
     text-align: center;
