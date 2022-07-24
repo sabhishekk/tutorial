@@ -1,0 +1,38 @@
+#opening::before{
+    content: "";
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    background: url('https://www.scdn.co/i/free/bubbles-dktp.svg') center -140px / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    z-index: -4;
+}
+#opening h1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 3rem;
+}
+#ck{
+    color: black;
+}
+#opening img{
+    height: 500px;
+}
+#opening{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#opening button{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: 0px;
+    padding: 14px 25px;
+    font-size: 16px;
+    align-self: center;
+}
+#mean{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}

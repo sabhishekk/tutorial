@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+#navcontainer{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Bhaina 2';
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: space-between;
+}
+#lists{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 5em;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    margin-left: 200px;
+    padding: 3px;
+    
+}
+#icon img{
+    height: 65px;
+    filter: invert(100);
+}
+#navlist1{
+    display: flex;
+    align-content: flex-end;
+}
+#navlist1 li{
+    margin: 0px 24px 0px 30px;
+    list-style: none;
+    font-size: 16px;
+}
+#navlist2 li{
+    margin: 0px 30px 0px 24px;
+    list-style: none;
+    font-size: 16px;
+    /* font-family: 'Baloo Bhaina 2', 'cursive'; */
+    color: rgb(223 223 223);
+}
+#navlist2 li:hover{
+    color: green;
+    cursor: pointer;
+}
+#navlist1 li:hover{
+    color: rgb(7, 176, 7);
+    cursor: pointer;
+}
+
+#navlist2{
+    display: flex;
+}
+#option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c67d3;
+}
+.option{
+    color: white;
+    margin: 15px 100px;
+}
+.option:nth-child(2){
+    font-weight: bold;
+    cursor: pointer;
+}
