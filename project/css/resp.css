@@ -1,0 +1,58 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#navbar {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before {
+    height: 100%;
+}
+
+#container {
+    flex-direction: column;
+}
+
+nav ul a {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0.5rem;
+}
+
+nav ul {
+    text-align: center;
+}
+
+#navbar img {
+    height: 35px;
+}
+
+.primary {
+    font-size: 1.5rem;
+}
+
+#home pre {
+    font-size: 0.35rem;
+}
+
+#home::before {
+    height: 300px;
+
+}
+
+#services h1 {
+    margin: 0px;
+    margin-top: 55px;
+}
+
+.clients img {
+    height: 126px;
+}
