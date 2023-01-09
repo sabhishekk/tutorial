@@ -1,0 +1,115 @@
+body{
+    background: url('/image/bg.jpg');
+    /* background-repeat: no-repeat; */
+    color: wheat;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#left{
+/* border: 3px solid red; */
+display: inline-block;
+position: absolute;
+left: 15px;
+top: 18px;
+}
+#right{
+/* border: 3px solid red; */
+display: inline-block;
+position: absolute;
+right: 15px;
+top: 18px;
+}
+#mid{
+/* border: 3px solid red; */
+display: block;
+width: 45%;
+margin: 18px auto;
+}
+#navbar a{
+    text-decoration: none;
+    padding: 27px;
+    color: white;
+    font-size: 27px;
+}
+#left img{
+    width: 61px;
+    filter: invert(100%);
+    padding-left: 11px;
+}
+#navbar a:hover, a#active{
+    color: #a7a91c;
+    text-decoration: underline;
+}
+.btn{
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #645353;
+}
+#container{
+    border: 2px solid rgb(76 34 34);
+    margin: 92px auto;
+    display: block;
+    width: 45%;
+    border-radius: 22px;
+}
+.form{
+    display: block;
+    width: 55%;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 4px;
+}
+#container h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+#submit{
+    cursor: pointer;
+}
+footer{
+    /* border: 3px solid green; */
+    background-color: #000000;
+    border-top-left-radius: 75px;
+    padding: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 95%;
+    color: #ffffff;
+}
+footer div{
+    font-weight: bold;
+    font-size: 42px;
+    /* border: 2px solid green; */
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    padding: 6px;
+}
+#image{
+    position: absolute;
+    top: 36px;
+    left: 534px;
+}
+#text{
+    font-size: 25px;
+    margin-left: 200px;
+}
+#adress{
+    font-size: 12px;
+    position: absolute;
+    right: 37px;
+}
